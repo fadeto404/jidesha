@@ -40,10 +40,14 @@ CRX file into the "chrome://extensions" window.
 When Chrome shows it among your installed extensions,
 you will also see its *hash ID*.
 
+### Enable Chrome desktop sharing in your Jitsi Meet installation
+
+By default desktop sharing in Chrome is disabled in your Jitsi Meet installation. To enable it, change the `desktopSharingChromeDisabled` property of your `/etc/jitsi/meet/<your.server.com>-config.js` from `true` to `false`
+
 ### Enter your extension's hash ID into your Jitsi Meet installation 
 
 You have to write the hash ID into the `desktopSharingChromeExtId`
-property of your `/etc/jitsi/meet/<your.server.com>-config.js`.
+property of your `/etc/jitsi/meet/<your.server.com>-config.js`. Make sure the ID is formatted as a string (`'<MY ID>'`)
 This way, Jitsi Meet knows what to look for when the user clicks
 the "Share screen" button.
 
