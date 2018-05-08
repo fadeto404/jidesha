@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 1,
   "name": "Ballerup Desktop Streamer",
   "description": "A simple extension that allows you to stream your desktop into meetings with Jitsi Meet and Jitsi Videobridge.",
-  "version": "0.1.6",
+  "version": "1.0.1",
   "minimum_chrome_version": "34",
   "icons": {
     "16": "jitsi-logo-16x16.png",
